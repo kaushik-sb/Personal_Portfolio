@@ -1,0 +1,187 @@
+table, th, td{
+	border: 1px solid;
+	border-color: #04AA6D;
+}
+
+th, td{
+	height:5rem;
+	width:12rem;
+	text-align:center;
+	}
+
+
+table{
+	margin-left: 10rem;
+}
+
+body{
+	background-color: black;
+	color:white;
+}
+
+.skills{
+	flex: 1;
+	margin: 5px;
+	padding: 10px;
+	background-color: #04AA6D;
+	color: white;
+	text-align: center;
+}
+
+.overall_skills{
+	display:flex;
+}
+
+.skills:hover{
+	transform: scale(1.07);
+}
+
+.nav_bar{
+	margin-top: 2rem;
+	display:flex;
+}
+
+.nav_bar_buttons{
+	flex: 1;
+	margin: 5px;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.nav_bar_buttons_img{
+	flex: 1;
+	margin: 5px;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.nav_bar_buttons:hover{
+	transform: scale(1.4);
+}
+
+@keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+
+.animated-image {
+	margin-top: 7rem;
+	margin-left: 8.5rem;
+	animation: fadeIn 5s ease-in-out; 
+	width: 25%;
+	height:auto;
+}
+
+.nav_bar #photo{
+	display:flex;
+	align-items: center;
+}
+
+@keyframes slideIn{
+	from {
+	  transform: translateX(500%); 
+	}
+	to {
+	  transform: translateX(0%); 
+	}
+}
+
+#bio{
+	flex-grow:1;
+	background-color: black;
+	color: white;
+	margin-top: 13rem;
+	margin-left: 10rem;
+	text-align: center;
+	font-size: 5rem;
+	font-family: 'Grape Nuts',cursive;
+    top: 0;
+    animation: slideIn 2s ease; 
+    
+}
+.nav_bar_buttons, p{
+	font-size: 1.2rem;
+}
+
+#about{
+	margin-left:10rem;
+	margin-top: 10rem;
+	font-family: Bebas Neue, cursive;
+}
+
+.nav_bar_buttons a{
+	padding-top: 2rem;
+	color: #04AA6D;
+	text-decoration:none; 
+}
+
+#about{
+	margin-top: 10rem;
+	color: #04AA6D
+}
+
+#knowledge{
+	margin-left: 10rem;
+	margin-top: 4rem;
+	text-align:center;
+	max-width: 80%;
+}
+
+.skills{
+	flex: 1;
+	margin: 5px;
+	padding: 10px;
+	background-color: #04AA6D;
+	color: white;
+	text-align: center;
+}
+
+.overall_skills{
+	display:flex;
+}
+
+.skills:hover{
+	transform: scale(1.07);
+}
+
+table, th, td{
+	border: 1px solid;
+	border-color: #04AA6D;
+}
+
+th, td{
+	height:5rem;
+	width:12rem;
+	text-align:center;
+	}
+
+
+table{
+	margin-left: 10rem;
+}
+
+dt{
+	margin-left: 5rem;
+	font-size: 1.3rem;
+	font-family:'Bebas Neue',sans-serif;
+}
+
+dd a{
+	margin-left: 8rem;
+	text-decoration: none;
+	color: #04AA6D;
+}
+
+dd{
+	margin-top: 0.8rem;
+	margin-bottom: 5rem;
+	font-family:'Bebas Neue',sans-serif;
+}
